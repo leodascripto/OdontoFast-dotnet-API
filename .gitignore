@@ -1,0 +1,47 @@
+# Ignorar bin e obj de cada projeto
+OdontofastAPI/bin/
+OdontofastAPI/obj/
+OdontofastAPI/.vs/
+OdontofastAPI.Tests/bin/
+OdontofastAPI.Tests/obj/
+OdontofastAPI.Tests/.vs/
+
+# VSCode e arquivos de IDEs
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs, temporários e caches
+*.log
+*.tmp
+*.swp
+*.bak
+*~
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Diretórios de publicação e testes
+OdontofastAPI/publish/
+OdontofastAPI.Tests/publish/
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Arquivos do NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Secrets e variáveis de ambiente
+secrets.json
+.env
+.env.*

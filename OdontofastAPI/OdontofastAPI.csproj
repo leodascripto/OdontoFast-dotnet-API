@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.Common" Version="4.9.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp.Workspaces" Version="4.9.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.Common" Version="4.9.2" />
+    <PackageReference Include="Microsoft.CodeAnalysis.Workspaces.MSBuild" Version="4.9.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.3" />
+    <PackageReference Include="Microsoft.Extensions.ML" Version="4.0.2" />
+    <PackageReference Include="Microsoft.ML" Version="4.0.2" />
+    <PackageReference Include="Microsoft.ML.AutoML" Version="0.22.2" />
+    <PackageReference Include="Microsoft.ML.FastTree" Version="4.0.2" />
+    <PackageReference Include="Microsoft.ML.LightGBM" Version="4.0.2" />
+    <PackageReference Include="Oracle.EntityFrameworkCore" Version="9.23.60" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.7.0" />
+    <PackageReference Include="SendGrid" Version="9.29.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
