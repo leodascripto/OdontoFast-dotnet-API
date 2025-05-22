@@ -1,3 +1,4 @@
+
 # Odontofast API
 
 Bem-vindo ao repositório da **Odontofast API**, uma API desenvolvida em .NET para integração com um aplicativo mobile. Esta API é responsável por gerenciar autenticação e operações CRUD de usuários, persistindo os dados em um banco de dados Oracle.
