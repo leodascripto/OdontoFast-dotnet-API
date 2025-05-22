@@ -500,5 +500,6 @@ Solicita o treinamento ou atualização do modelo de predição de duração de 
 
 - Felipe Amador - RM553528
 - Leonardo Oliveira - RM554024
-- Sara Sousa - RM552656#   O d o n t o F a s t - d o t n e t - A P I  
+- Sara Sousa - RM552656#   O d o n t o F a s t - d o t n e t - A P I 
+ 
  
